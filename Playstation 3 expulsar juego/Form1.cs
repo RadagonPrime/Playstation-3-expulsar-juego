@@ -48,7 +48,7 @@ namespace Playstation_3_expulsar_juego
 
                 if (m.Msg == WM_NCHITTEST)
                 {
-                    m.Result = (IntPtr)HTTRANSPARENT; // Ignora el mouse
+                    m.Result = (IntPtr)HTTRANSPARENT;
                     return;
                 }
 
